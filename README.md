@@ -1,20 +1,6 @@
----
-license: apache-2.0
-base_model: Qwen/Qwen3-0.6B
-language:
-  - en
-pipeline_tag: text-generation
-library_name: transformers.js
-tags:
-  - onnx
-  - transformers.js
-  - webgpu
-  - qwen3
-  - workflow-generation
-  - text-generation
----
-
 # TabTasker Workflow AI (0.6B, ONNX)
+
+> Apache-2.0 &bull; base model [Qwen/Qwen3-0.6B](https://huggingface.co/Qwen/Qwen3-0.6B) &bull; ONNX / q4 &bull; runs in the browser via [Transformers.js](https://github.com/huggingface/transformers.js)
 
 The on-device workflow generator behind **[TabTasker](https://tabtasker.com)**, a free,
 browser-based toolbox where files are processed locally and never uploaded to a server.
