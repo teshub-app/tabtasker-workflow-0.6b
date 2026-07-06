@@ -8,7 +8,7 @@ browser-based toolbox where files are processed locally and never uploaded to a 
 Describe what you want in plain English (for example, "Take a PDF, pull out the text, and
 read it aloud as an MP3") and this model replies with a complete, valid TabTasker workflow
 graph as JSON: which node types to use, how to wire their ports, and what inputs to expose.
-It powers the **[Create with AI](https://tabtasker.com/workflows)** feature and runs entirely
+It powers the **[Create with AI](https://tabtasker.com/workflow)** feature and runs entirely
 in your browser via WebGPU (with a CPU/wasm fallback) using
 [Transformers.js](https://github.com/huggingface/transformers.js). One download, zero server
 calls, full privacy.
@@ -107,7 +107,7 @@ const out = await generate(messages, { max_new_tokens: 1024, do_sample: false })
 ```
 
 The system prompt must list the TabTasker node catalog in the format the model was trained on.
-See it live in the [Create with AI](https://tabtasker.com/workflows) feature, or just use
+See it live in the [Create with AI](https://tabtasker.com/workflow) feature, or just use
 TabTasker where it is already wired up.
 
 ## Files
